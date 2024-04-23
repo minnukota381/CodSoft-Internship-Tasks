@@ -363,17 +363,6 @@ section p{
   text-align: justify;
 }
 
-/* Resume Section */
-.resume {
-  padding: 50px 0;
-  color: #fff;
-}
-
-.resume .title {
-  margin-bottom: 30px;
-}
-
-
 /* Contact Section */
 .contact {
   padding: 50px 0;
