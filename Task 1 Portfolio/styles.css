@@ -9,18 +9,19 @@
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
 }
-/* Define keyframes for gradient animation */
 @keyframes changeGradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% { background-position: 0% 0%; }
+  17% { background-position: 50% 0%; }
+  33% { background-position: 50% 50%; }
+  50% { background-position: 50% 100%; }
+  67% { background-position: 0% 100%; }
+  100% { background-position: 0% 0%; }
 }
 
-/* Apply gradient animation to body */
 body {
-  background: linear-gradient(to right, #000051, #00007d, #00001b, #000047);
+  background: linear-gradient(to right, #03033c, #010134, #00001b, #000047);
   background-size: 400% 400%;
-  animation: changeGradient 15s ease infinite;
+  animation: changeGradient 5s ease infinite;
 }
 
 /* Scrollbar styles */
@@ -112,7 +113,7 @@ nav .navbar {
 
 .navbar .nav-item .nav-link{
   position: relative;
-  color: #0d00ff;
+  color: #ff8c00;
   display: inline-block;
   line-height: 1.5;
   text-align: center;
