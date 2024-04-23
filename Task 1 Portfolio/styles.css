@@ -352,6 +352,16 @@ section p{
   text-align: justify;
 }
 
+/* Resume Section */
+.resume {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.resume .title {
+  margin-bottom: 30px;
+}
+
 
 /* Contact Section */
 .contact {
