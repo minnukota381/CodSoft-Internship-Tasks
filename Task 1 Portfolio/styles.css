@@ -159,24 +159,12 @@ nav .navbar {
   flex-direction: column;
   justify-content: center;
 }
-.home .flex-container {
-  display: flex;
-  justify-content: space-between;
-}
-.home .text {
-  display: flex;
-  align-items: center;
-}
-.home .text-content {
-  margin-left: 30px; /* Adjust this value as needed */
-  text-align: left;
-}
 .home .text-one{
   font-size: 25px;
-  color:rgb(255, 0, 0);
+  color:rgb(255, 128, 0);
 }
 .home .text-two{
-  color:rgb(253, 93, 0);
+  color:rgb(18, 18, 212);
   text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
   font-size: 50px;
   font-weight: 600;
@@ -198,12 +186,11 @@ nav .navbar {
 }
 
 .home .img-fluid{
-  width: 500px;
-  height:500px;
+  width: 200px;
+  height:200px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
-
 
 .home .social-links {
   position: absolute;
@@ -382,19 +369,17 @@ section p{
 }
 
 .svg-image {
-  width: 400px;
-  height: 400px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .contact .title {
-  margin-bottom: 20px;
-  color: #ffffff;
+  margin-bottom: 30px;
+  color: #ffffff; /* Text color for the title */
 }
 
 .contact-details {
-  background-color: #212020;
+  background-color: #000; /* Dark background color */
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -416,8 +401,8 @@ section p{
   padding: 10px;
   border: 1px solid #ffffff; /* White border color */
   border-radius: 5px;
-  background-color: #ffffff; /* Darker background color for input fields */
-  color: #0dc600; /* Text color for input fields */
+  background-color: #444; /* Darker background color for input fields */
+  color: #ffffff; /* Text color for input fields */
 }
 
 .contact form textarea {
@@ -441,7 +426,7 @@ section p{
 .contact .contact-info h3,
 .contact .contact-info p {
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #ffffff; /* Text color for contact information */
 }
 
 .btn-primary {
@@ -453,7 +438,6 @@ section p{
   background-color: #065e17 !important;
   border-color: #eee !important;
 }
-
 
 /* Footer */
 
