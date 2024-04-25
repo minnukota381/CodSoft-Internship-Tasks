@@ -370,6 +370,12 @@ section p{
   border-radius: 12px;
   text-align: justify;
 }
+.projects .title {
+  text-align: center;
+}
+.projects .title span {
+  color: #fff;
+}
 
 /* Contact Section */
 .contact {
