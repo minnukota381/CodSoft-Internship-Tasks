@@ -141,6 +141,10 @@ nav .navbar {
 .navbar .nav-item .nav-link:hover::before {
   width: 100%; 
 }
+.navbar-toggler-icon {
+  color: #fff; /* Set the background color of the toggler icon to white */
+}
+
 
 /* home section styling */
 .home {
