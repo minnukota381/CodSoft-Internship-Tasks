@@ -14,17 +14,18 @@ window.onscroll = function() {
 }
 
 $(document).ready(function(){
-  $('.navbar-toggler').click(function(){
+  $('.navbar-toggler').click(function(e){
+    e.stopPropagation();
     $('#navbarNav').collapse('toggle');
   });
+
   $(document).click(function(event){
-    if (!$(event.target).closest('#navbarNav').length) {
-      if ($('#navbarNav').collapse('show').length) {
-        $('#navbarNav').collapse('hide');
-      }
+    if (!$(event.target).closest('#navbarNav').length && $('#navbarNav').hasClass('show')) {
+      $('#navbarNav').collapse('hide');
     }
   });
 });
+
 
 let options = {
   strings: ["Full Stack Developer", "Web Developer", "Software Developer"],

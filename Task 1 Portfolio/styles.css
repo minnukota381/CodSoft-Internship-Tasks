@@ -375,11 +375,11 @@ section p{
 
 .contact .title {
   margin-bottom: 30px;
-  color: #ffffff; /* Text color for the title */
+  color: #ffffff;
 }
 
 .contact-details {
-  background-color: #000; /* Dark background color */
+  background-color: #000;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -391,7 +391,7 @@ section p{
 
 .contact form label {
   font-weight: 600;
-  color: #ffffff; /* Text color for labels */
+  color: #ffffff;
 }
 
 .contact form input[type="text"],
@@ -399,10 +399,10 @@ section p{
 .contact form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ffffff; /* White border color */
+  border: 1px solid #ffffff;
   border-radius: 5px;
-  background-color: #444; /* Darker background color for input fields */
-  color: #ffffff; /* Text color for input fields */
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .contact form textarea {
@@ -426,7 +426,7 @@ section p{
 .contact .contact-info h3,
 .contact .contact-info p {
   margin-bottom: 10px;
-  color: #ffffff; /* Text color for contact information */
+  color: #ffffff;
 }
 
 .btn-primary {
