@@ -142,8 +142,12 @@ nav .navbar {
   width: 100%; 
 }
 .navbar-toggler-icon {
-  color: #fff; /* Set the background color of the toggler icon to white */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="rgba(255, 255, 255, 0.7)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>') !important;
+  background-repeat: no-repeat;
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
 }
+
 
 
 /* home section styling */
