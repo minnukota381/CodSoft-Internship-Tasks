@@ -125,6 +125,9 @@ nav .navbar {
   font-weight: 500;
   transition: color 0.3s ease;
   margin-left: 10px;
+  &:hover {
+    color: #ffffff;
+  }
 }
 
 .navbar .nav-item .nav-link::before {
@@ -134,7 +137,7 @@ nav .navbar {
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #686464;
+  background-color: #c7c7c7;
   transition: width 0.3s ease-in-out;
 }
 
