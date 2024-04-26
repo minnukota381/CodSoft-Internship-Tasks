@@ -1,4 +1,3 @@
-// AboutSection.js
 import React from 'react';
 
 const AboutSection = () => {
