@@ -1,0 +1,118 @@
+body {
+    background-image: url('images/bg.jpg');
+    /* background-image: url('https://images.unsplash.com/photo-1689443111070-2c1a1110fe82?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDEwfHx8ZW58MHx8fHx8'); */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.navbar-brand {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px;
+}
+.nav-link {
+    color: #fff !important;
+    position: relative;
+    margin-right: 10px !important;
+}
+.nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #007bff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover::before,
+.nav-link.active::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.section {
+    padding: 80px 0;
+    text-align: center;
+}
+.section h1 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+.section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.social-icons {
+    margin-top: 30px;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 30px 0;
+}
+.card {
+    border-radius: 16px !important;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-title {
+    color: #fff;
+}
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    animation: fadeInDown 1s;
+}
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    animation: fadeInUp 1s;
+}
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    animation: bounceIn 1s;
+}
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-section .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.contact-section .btn-primary {
+    width: 100%;
+}
