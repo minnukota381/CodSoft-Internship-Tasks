@@ -4,14 +4,14 @@ This repository contains my solutions to the tasks assigned during the web devel
 
 ## Tasks
 
-### Task 1 Portfolio Website
+### Level 1 - Task 1 Portfolio Website
 
 ![Task 1 Screenshot](Assets/task1.png)
 
-### Task 2 Landing Page
+### Level 1 - Task 2 Landing Page
 
 ![Task 2 Screenshot](Assets/task2.gif)
 
-### Task 3 Calculator Web application
+### Level 1 - Task 3 Calculator Web application
 
 ![Task 3 Screenshot](Assets/task3.png)
