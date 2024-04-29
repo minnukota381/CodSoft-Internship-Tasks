@@ -35,6 +35,7 @@ Welcome to my repository containing solutions to the tasks assigned during my we
 - HTML5: Structured the user interface components.
 - CSS3: Styled the calculator layout to ensure clarity and usability.
 - JavaScript: Implemented the logic for performing arithmetic calculations and updating the display dynamically.
+- ReactJS: Utilized React components to build the user interface.
 
 ## Internship Experience
 
